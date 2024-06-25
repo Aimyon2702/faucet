@@ -1,3 +1,31 @@
+## Tạo môi trường env
+
+```
+PRIVATE_KEY=0000000000000000000000000000000000000000000000000000000000000000
+RPC_URL=https://rpc.ankr.com/eth_goerli
+COOLDOWN_HOURS=2
+VALUE=1230000000000000
+NEXT_PUBLIC_HCAPTCHA_SITE_KEY=00000000-0000-0000-0000-000000000000
+HCAPTCHA_SECRET=0x0000000000000000000000000000000000000000
+REDIS_URI=redis://default:key@url.com:6379
+```
+
+## Hướng dẫn chi tiết
+
+PRIVATE_KEY: The private key of the wallet issuing funds. https://metamask.zendesk.com/hc/en-us/articles/360015289632
+
+RPC_URL: RPC url of the blockchain https://www.ankr.com/rpc/
+
+COOLDOWN_HOURS: Amount of hours users must wait to recieve funds again
+
+VALUE: Value in smallest unit (ie: wei) https://eth-converter.com/
+
+NEXT_PUBLIC_HCAPTCHA_SITE_KEY: Create hCaptcha account. Also known as `Sitekey` https://dashboard.hcaptcha.com/sites
+
+HCAPTCHA_SECRET: Create hCpatcha account. Also known as `Secret Key` https://dashboard.hcaptcha.com/settings
+
+REDIS_URI: Redis is an in-memory key-value database. https://redis.com/redis-enterprise-cloud/overview/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
