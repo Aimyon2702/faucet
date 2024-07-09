@@ -1,3 +1,8 @@
+## Screenshot:
+![Trang Chủ](https://github.com/Aimyon2702/faucet/blob/254a250f32e569d9743eb1753e138a61dbd7f982/screenshot.PNG)
+
+
+
 ## Tạo môi trường env
 
 ```
